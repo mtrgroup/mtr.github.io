@@ -1,0 +1,17 @@
+# Site settings
+title: mtr group
+email: inboxmtr@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  We are a group of enthusiasts who have been using Python and Django since version 1.0.
+  Our approach to the operation allows us to mimimize risks while allowing us to complete any the project as described.
+  We minimize extraneous factors and maximize our focus on the task.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mtr.website" # the base hostname & protocol for your site
+twitter_username: mtrgroup
+github_username:  mtrgroup
+timezone: America/New_York
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+permalink: date
