@@ -4,7 +4,7 @@ title:  "Work started, 135$ of 500$ funded, basic structure of package, mkvirtua
 date:   2015-02-02 18:47:56
 сategory: kickstarter
 tags: kickstarter python package working django-mtr-sync oneday
-image: '/img/02-02/preview.png'
+image: '/img/02-02/structure.png'
 ---
 
 And so after the first not full day on Kickstarter at the time of writing, the project has already collected $135!
