@@ -3,7 +3,7 @@ layout: post
 title:  "We are finally public and start campaing on kickstarter!"
 date:   2015-02-01 18:39:56
 сategory: kickstarter
-tags: kickstarter package import-export
+tags: kickstarter python package django-mtr-sync
 image: '/img/02-01/kickstarter.png'
 ---
 We are pleased to announce yourself on Kickstarter with a small django package, for more info please read the description on the [Kickstarter.com][kickstarter]. Kickstarter is the best way to get an independent assessment and the opportunity to listen to your opinion. It also allows us to assess the demand for the development of necessary packages, as well as make it easier for us, the developers, to increase your efficiency.
@@ -18,4 +18,4 @@ to develop much-needed community packages that are suitable for use in real prod
 
 ![Preview of import]({{ '/img/02-01/preview.png' | prepend: site.baseurl}})
 
-[kickstarter]:      https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package
+[kickstarter]: https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package
