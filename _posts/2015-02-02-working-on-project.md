@@ -30,15 +30,11 @@ don't exist and installs all packages from requirements.txt, of course you can c
 VERSION=$1
 
 if [[ -z "$VIRTUAL_ENV" ]]; then
-
-source /usr/local/bin/virtualenvwrapper.sh
-
+    source /usr/local/bin/virtualenvwrapper.sh
 fi
 
 if [[ -z "$1" ]]; then
-
-VERSION=3
-
+    VERSION=3
 fi
 
 ENV_NAME="django-mtr-sync-$VERSION"
