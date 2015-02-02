@@ -23,7 +23,7 @@ For convenience we created bash script, `.env` that creates new virtualenv if it
 don't exist and installs all packages from requirements.txt, of course you can customize it as you wish.
 
 {% highlight bash %}
-# activate or create virtualenv for test project
+# activate or create virtualenv for project
 
 VERSION=$1
 
