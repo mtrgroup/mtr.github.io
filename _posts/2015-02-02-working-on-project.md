@@ -21,8 +21,8 @@ follow the stages of development that will give you an idea how to develop and p
 
 So, the `mtr_sync` folder is our main package app and the `tests` folder is where test project is located, where we will write tests. There are many of approaches testing applications but the most comfortable is to create separate project for standalone app and test it. This approach uses django itself and other large packages.
 
-For convenience we created bash script, `.env` that creates new virtualenv if it
-don't exist and installs all packages from requirements.txt, of course you can customize it as you wish.
+For convenience we created bash script, `.env` that creates a new virtualenv if it
+doesn't exist and installs all packages from requirements.txt, of course you can customize it as you wish.
 
 {% highlight bash %}
 # activate or create virtualenv for project
