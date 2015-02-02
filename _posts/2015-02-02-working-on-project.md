@@ -13,6 +13,8 @@ We are very pleased that we have found a like-minded people. Now we start develo
 During the development we will share with you my small but useful ideas that we use ourselves, and as you can
 follow the stages of development that will give you an idea how to develop and publish your own real packages.
 
+####Our project is here [https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package][kickstarter]
+
 ###Basic project structure
 
 ![Project structure]({{ '/img/02-02/structure.png' | prepend: site.baseurl}})
@@ -57,3 +59,5 @@ So now, we can start to convert mockups in to the architecture of app. Then we c
 Of course, you can read all about this in next posts.
 
 Thanks for your support!
+
+[kickstarter]: https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package
