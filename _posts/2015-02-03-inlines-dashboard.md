@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Django inline import and export explanation. Creating main model and dashboard page"
+title:  "Explanation of Django inline import and export package. Creating main model and dashboard page"
 date:   2015-02-03 20:47:56
 сategory: kickstarter
 tags: kickstarter python package working django-mtr-sync
 image: '/img/2015/02/03/inline.png'
 ---
 
-Project already includes partial inline integration as "Mapping fields feature" but we need to add search field in import and export settings pages to set id of object (parent object). In mockup, ​you can see "Choose main model to import" it used to determine main model and search field for choosing concreete object, shortcut for this will be link from inlines.
+Project already includes partial inline integration as "Mapping fields feature" but we need to add search field in import and export settings pages to set id of the object (parent object). In mockup, ​you can see "Choose main model to import" select box. It used to determine main model and search field for choosing concrete object. Shortcut for settings page will be link from inlines.
 
 
 
@@ -15,18 +15,18 @@ Project already includes partial inline integration as "Mapping fields feature" 
 
 > Also huge thanks and kudos to **Heather Kohler** for $250! It's awesome! [https://twitter.com/hkohler](https://twitter.com/hkohler)
 
-So other models and fields will be automatically added to this model and other "Choose model" select boxes will show list of models that belongs to main model, so you now can import or export all data to inline or related models (OneToOne, ManyToMany, ForeignKey).
+Additional models and fields will be automatically added to this model and other "Choose model" select boxes will show list of models that belongs to main model. It provides an ability to import or export all data to inline or related models (OneToOne, ManyToMany, ForeignKey).
 
-For convenience we will add in `stacked` and `tabular` inlines link to quick import or export so in the settings form
+For convenience we will add in `stacked` and `tabular` inlines link to quickly import or export. In the settings form
 main model and search object form will be automatically filled.
 
 ![Inline mode]({{ '/img/2015/02/03/inline.png' | prepend: site.baseurl}})
 
 ## Work in progress
 
-For now, we created basic main model and empty dashboard page wich integrates in standart admin page.
-If you wish to create your own Django standalone app or refactor existing project, all usefull things we will place
-in separate post, for now we have only information about how we doing it live. Thanks for your patience!
+For now, we created basic main model and empty dashboard page which integrates in standard admin page.
+If you wish to create your own Django standalone app or refactor existing project, all useful things will placed
+in a separate post. As for now we have only information about how we doing it live. Thanks for your patience!
 
 ###What we have done
 
