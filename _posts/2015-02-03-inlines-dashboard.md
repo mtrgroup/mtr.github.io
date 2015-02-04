@@ -13,7 +13,7 @@ Project already includes partial inline integration as "Mapping fields feature" 
 
 > Big thanks to **Russell Keith-Magee, DSF President** and member of the Django core team for helping us to clarify django license compliance requirements.
 
-> Also huge thanks and kudos to **Heather Kohler** for $250! It's awesome!
+> Also huge thanks and kudos to **Heather Kohler** for $250! It's awesome! [https://twitter.com/hkohler](https://twitter.com/hkohler)
 
 So other models and fields will be automatically added to this model and other "Choose model" select boxes will show list of models that belongs to main model, so you now can import or export all data to inline or related models (OneToOne, ManyToMany, ForeignKey).
 
