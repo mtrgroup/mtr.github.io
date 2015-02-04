@@ -4,7 +4,7 @@ title:  "Django inline import and export explanation. Creating main model and da
 date:   2015-02-03 20:47:56
 сategory: kickstarter
 tags: kickstarter python package working django-mtr-sync
-image: '/img/2015/02/03/structure.png'
+image: '/img/2015/02/03/inline.png'
 ---
 
 Project already includes partial inline integration as "Mapping fields feature" but we need to add search field in import and export settings pages to set id of object (parent object). In mockup, ​you can see "Choose main model to import" it used to determine main model and search field for choosing concreete object, shortcut for this will be link from inlines.
