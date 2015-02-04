@@ -1,28 +1,27 @@
 ---
 layout: post
-title:  "Work started, 135$ of 500$ funded, basic structure of package, mkvirtualenv helper"
-date:   2015-02-02 18:47:56
+title:  "Work started, $135 of $500 funded, basic structure of package, mkvirtualenv helper"
+date:   2015-02-02 13:47:56
 сategory: kickstarter
-tags: kickstarter python package working django-mtr-sync oneday
-image: '/img/02-02/structure.png'
+tags: kickstarter python package working django-mtr-sync firstday
+image: '/img/2015/02/02/structure.png'
 ---
 
-And so after the first not full day on Kickstarter at the time of writing, the project has already collected $135!
-We are very pleased that we have found a like-minded people. Now we start developing the package and added a project template to github.
+We are very happy to report that after first day on the Kickstarter, the project has already collected $135! We are very pleased that we have found a like-minded people. Now we started developing the package and added a project template to github.
 
-During the development we will share with you my small but useful ideas that we use ourselves, and as you can
-follow the stages of development that will give you an idea how to develop and publish your own real packages.
+During the development we will share with you our ideas that we use in our development.
+We will communicate our development process that will help you in developing and publishing your own packages.
 
-####Our project is here [https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package][kickstarter]
+**Our project is here [https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package][kickstarter]**
 
-###Basic project structure
+##Basic project structure
 
-![Project structure]({{ '/img/02-02/structure.png' | prepend: site.baseurl}})
+![Project structure]({{ '/img/2015/02/02/structure.png' | prepend: site.baseurl}})
 
-So, the `mtr_sync` folder is our main package app and the `tests` folder is where test project is located, where we will write tests. There are many of approaches testing applications but the most comfortable is to create separate project for standalone app and test it. This approach uses django itself and other large packages.
+The `mtr_sync` folder is our main package app and the `tests` folder is where test project is located, where we will write tests. There are many ways of testing applications but the most common is to create separate project for standalone app and test it. This approach uses django itself and other large packages.
 
 For convenience we created bash script, `.env` that creates a new virtualenv if it
-doesn't exist and installs all packages from requirements.txt, of course you can customize it as you wish.
+doesn't exist and installs all packages from requirements.txt. Of course it olud be customizeble.
 
 {% highlight bash %}
 # activate or create virtualenv for project
@@ -48,11 +47,11 @@ else
 fi
 {% endhighlight %}
 
-For using it you need to install `virtualenvwrapper` globally by `sudo pip install virtualenvwrapper`
-More details about environment configuration we will post soon.
+To use it you need to install `virtualenvwrapper` globally by `sudo pip install virtualenvwrapper`
+We will post more details about environment configuration soon.
 
-So now, we can start to convert mockups in to the architecture of app. Then we create models, views, templates for main features.
-Of course, you can read all about this in next posts.
+We are starting to converting mockups in to the architecture of app. Then we will create models, views, templates for main features.
+Of course, you will be able to read about our progress in the next posts.
 
 Thanks for your support!
 

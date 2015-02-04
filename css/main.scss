@@ -48,12 +48,21 @@ $on-laptop:        800px;
     }
 }
 
+a.home {
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
 #disqus_thread {
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 .info-block-wrapper {
-    padding-top: 5%;
+    padding-top: 4%;
     width: 100%;
     text-align: center;
 }
