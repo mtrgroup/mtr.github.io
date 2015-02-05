@@ -57,6 +57,38 @@ a.home {
     text-transform: uppercase;
 }
 
+.nextprevblock {
+    width: 100%;
+    padding-top: 5%;
+    @extend %clearfix;
+
+    .next, .previous {
+        width: 20%;
+
+        @include media-query($on-laptop) {
+            width: 100%;
+        }
+
+        font-weight: bold;
+        text-transform: uppercase;
+
+        a {
+            display: block;
+            font-weight: normal;
+            text-transform: none;
+            font-size: 90%;
+        }
+    }
+
+    .next {
+        float: right;
+    }
+
+    .previous {
+        float: left;
+    }
+}
+
 #disqus_thread {
     padding-top: 4%;
 }
