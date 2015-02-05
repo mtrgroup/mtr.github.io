@@ -3,7 +3,7 @@ layout: post
 title:  "Theming (template prefixing). Lambda settings variables, testing. Fabfile for all annoying tasks"
 date:   2015-02-05 17:00:56
 сategory: kickstarter
-tags: kickstarter python package working django-mtr-sync fabric theming settings
+tags: kickstarter python package working django-mtr-sync fabric theming settings django
 image: '/img/2015/02/05/tests.png'
 ---
 
@@ -119,7 +119,7 @@ FILE_PATH = getattr_with_prefix('FILE_PATH', get_buffer_file_path)
 THEME_PATH = getattr_with_prefix('THEME_PATH', 'default')
 
 {% endhighlight %}
-In function `getattr_with_prefix` we use` lambda`. This done to distinguish a local(current app settings) and external(third-party) app settings when settings are changed in test you can get a new value, and it allows you. If we simply assign a default value in `getattr_with_prefix` then when you change the settings in the test you would get a previous value instead of a new.
+In function `getattr_with_prefix` we use `lambda`. This done to distinguish a local(current app settings) and external(third-party) app settings when settings are changed in test you can get a new value, and it allows you. If we simply assign a default value in `getattr_with_prefix` then when you change the settings in the test you would get a previous value instead of a new.
 
 {% highlight python %}
 import os

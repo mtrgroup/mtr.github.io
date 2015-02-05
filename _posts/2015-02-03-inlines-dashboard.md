@@ -3,7 +3,7 @@ layout: post
 title:  "Explanation of Django inline import and export package. Creating main model and dashboard page"
 date:   2015-02-03 20:47:56
 сategory: kickstarter
-tags: kickstarter python package working django-mtr-sync
+tags: kickstarter python package working django-mtr-sync django
 image: '/img/2015/02/03/inline.png'
 ---
 

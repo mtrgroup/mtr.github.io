@@ -3,7 +3,7 @@ layout: post
 title:  "Work started, $135 of $500 funded, basic structure of package, mkvirtualenv helper"
 date:   2015-02-02 13:47:56
 сategory: kickstarter
-tags: kickstarter python package working django-mtr-sync firstday
+tags: kickstarter python package working django-mtr-sync firstday django
 image: '/img/2015/02/02/structure.png'
 ---
 
