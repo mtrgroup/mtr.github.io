@@ -14,6 +14,8 @@ We will communicate our development process that will help you in developing and
 
 **Our project is here [https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package][kickstarter]**
 
+<!--more-->
+
 ##Basic project structure
 
 ![Project structure]({{ '/img/2015/02/02/structure.png' | prepend: site.baseurl}})

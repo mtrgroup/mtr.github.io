@@ -8,6 +8,8 @@ image: '/img/2015/02/01/kickstarter.png'
 ---
 We are pleased to announce ourselves on Kickstarter with a small django package. For more info please read the description on the [Kickstarter.com][kickstarter]. We feel that Kickstarter is the best way to get an independent assessment and the opportunity to listen to your opinion. It also allows us to evaluate the demand for the published packages, as well as make it easier for us, the developers, to increase your efficiency.
 
+<!--more-->
+
 ![Kickstarter]({{ '/img/2015/02/01/kickstarter.png' | prepend: site.baseurl}})
 
 Our mission is to help to the django developer's community by simplifying theirs life.

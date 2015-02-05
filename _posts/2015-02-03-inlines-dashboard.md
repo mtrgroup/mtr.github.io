@@ -9,6 +9,8 @@ image: '/img/2015/02/03/inline.png'
 
 Project already includes partial inline integration as "Mapping fields feature" but we need to add search field in import and export settings pages to set id of the object (parent object). In mockup, ​you can see "Choose main model to import" select box. It used to determine main model and search field for choosing concrete object. Shortcut for settings page will be link from inlines.
 
+<!--more-->
+
 > Big thanks to **Russell Keith-Magee, DSF President** and member of the Django core team for helping us to clarify django license compliance requirements.
 
 > Also huge thanks and kudos to **Heather Kohler** for $250! It's awesome! [https://twitter.com/hkohler](https://twitter.com/hkohler)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Theming (template prefixing). Lambda settings variables, testing. Fabfile for all annoying tasks"
-date:   2015-02-05 18:30:56
+date:   2015-02-05 17:00:56
 сategory: kickstarter
 tags: kickstarter python package working django-mtr-sync fabric theming settings
 image: '/img/2015/02/05/tests.png'
@@ -18,6 +18,8 @@ In today’s post we will discuss:
 - Must have tool `fabric` and rutine tasks.
 - Small tip about using the correct application configuration to avoid
   forks and reach maximum convenience and customization.
+
+<!--more-->
 
 ## Theming
 

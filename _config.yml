@@ -11,6 +11,7 @@ twitter_username: mtrgroup
 github_username:  mtrgroup
 timezone: America/New_York
 encoding: utf-8
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
