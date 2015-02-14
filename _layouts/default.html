@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
+
   <body>
     <div class="info-block-wrapper">
         <div class="info-block">
@@ -18,5 +18,13 @@
 
     {% include footer.html %}
     {% include analytics.html %}
+
+    <script src="{{ '/js/jquery.min.js' | prepend:site.baseurl }}"></script>
+    <script src="{{ '/js/video.js' | prepend:site.baseurl }}"></script>
+    <script>
+    $(document).ready(function(){
+        $(".video-wrapper").fitVids();
+    });
+    </script>
   </body>
 </html>
