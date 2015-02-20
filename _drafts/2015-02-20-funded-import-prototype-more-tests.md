@@ -16,32 +16,14 @@ First of all we would like to express our graditude:
 
 for biggest pledges and an ideas for project!
 
-Many thanks to:
-
-- James H Thompson
-- Ryan McDevitt
-- Timothy Fay
-- Kerry Channing
-
-- Patrick Taylor
-- Craig Anderson
-- Anselm Lingnau
-- David Burke
-
-- Jardar Skage Øhrn
-- Jack Eccleshall
-- Chris Adams
-- Blanc
-- Arezqui Belaid
-
-- Tom Christie
-- Nicholas WL Koh
-- Daniel Greenfeld
-- urijah
-- Rogelio
-- André Luiz Lopes dos Santos
-- Michael Herman
-- Mikhail Ushanov
+|Many thanks to:||||
+|-|-|-|-|
+|James H Thompson|Ryan McDevitt|Timothy Fay|Kerry Channing|Patrick Taylor|
+|Craig Anderson|Anselm Lingnau|David Burke|Jardar Skage Øhrn|Jack Eccleshall|
+|Chris Adams|Blanc|Arezqui Belaid|Tom Christie|Nicholas WL Koh|
+|Daniel Greenfeld|urijah|Rogelio|André Luiz Lopes dos Santos|Michael Herman|
+|Mikhail Ushanov||||
+||||
 
 <!--more-->
 
@@ -56,14 +38,17 @@ Whe we implementing `Processor` for `xlsx` we find issue in `openpyxl` optimized
 {% highlight text %}
 django>=1.6
 pytz
-fabric
+git+https://github.com/pashinin/fabric.git@6783d2f7ad7a449c97cd1ee0df9a2dbc29422fce#egg=fabric
 ipython
 celery
-hg+https://yaroslavprogrammer@bitbucket.org/openpyxl/openpyxl@2.1#egg=openpyxl
+hg+https://bitbucket.org/openpyxl/openpyxl@2.1#egg=openpyxl
 xlwt-future
 xlrd
 odfpy
+six
 {% endhighlight %}
+
+**Now you can use fork of `fabric` with python3** using git repo `git+https://github.com/pashinin/fabric.git@6783d2f7ad7a449c97cd1ee0df9a2dbc29422fce#egg=fabric`
 
 ## Test mixin tutorial
 
@@ -224,9 +209,25 @@ class XlsxProcessorTest(ProcessorTestMixin, TestCase):
             sheet_value = row_values[index + index_prepend].value
 
             self.assertEqual(value, sheet_value)
-
 {% endhighlight %}
+
+## Work progress
+
+What we have done:
+- Auto registering models for settings with filter
+- Created basic import and export actions with integrated xls, xlsx formats.
+- Added simple tests and python 3 support
+- Implemented Processor API
+- Created testing app with model (will be extened to more complex with all supported datatypes)
+- Added auto field settings
+- Custom queryset for settings
+
+What we have sheduled:
+- Support for custom fields, filters
+- On create, update, delete handlers in import
+- Add error reporting
+- Auto `select_related` `prefetch_related`
 
 Thanks for your support!
 
-[kickstarter]: https://www.kickstarter.com/projects/1625615835/django-opensource-improved-import-export-package
+Project on github: [https://github.com/mtrgroup/django-mtr-sync](https://github.com/mtrgroup/django-mtr-sync)
