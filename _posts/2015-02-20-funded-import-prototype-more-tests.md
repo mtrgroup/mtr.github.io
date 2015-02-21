@@ -25,13 +25,17 @@ for biggest pledges and an ideas for project!
 |Mikhail Ushanov||||
 ||||
 
-<!--more-->
-
 ##Import feature
 
 Finaly we have first working basic import feature. Let's see it in action in our new video below:
 
-# here goes video
+<p>
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/JOgQCFB-leg" frameborder='0' allowfullscreen></iframe>
+</div>
+</p>
+
+<!--more-->
 
 Whe we implementing `Processor` for `xlsx` we find issue in `openpyxl` optimized reader mode. We fixed it just by switching to `2.1` branch in project repo. Our `requirements.txt` now contains:
 
