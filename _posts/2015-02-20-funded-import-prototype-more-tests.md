@@ -1,10 +1,10 @@
 ---
 layout: post
-title: We have Funded! Import action video. Test mixins tutorial. Work progress
+title: We have Funded! Import action video. Using test mixins. Work progress
 date:   2015-02-20 13:47:56
 сategory: kickstarter
 tags: kickstarter python package working django-mtr-sync firstday django
-image: '/img/2015/02/20/diagram.png'
+image: '/img/2015/02/20/video.png'
 ---
 
 **Amazing! We have funded 190%!**
