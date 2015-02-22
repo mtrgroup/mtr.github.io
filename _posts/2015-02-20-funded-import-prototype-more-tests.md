@@ -7,7 +7,7 @@ tags: kickstarter python package working django-mtr-sync firstday django
 image: '/img/2015/02/20/video.png'
 ---
 
-**Amazing! We have funded 190%!**
+**Amazing! We have funded 180%!**
 
 First of all we would like to express our graditude:
 
