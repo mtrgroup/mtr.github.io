@@ -1,5 +1,5 @@
 # Site settings
-title: mtr group
+title: "MTR group website, group of python enthusiasts"
 email: inboxmtr@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   We are a group of enthusiasts who have been using Python and Django since version 1.0.

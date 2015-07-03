@@ -11,8 +11,8 @@ image: '/img/2015/02/20/video.png'
 
 First of all we would like to express our graditude:
 
-- **Heather Kohler** - [twitter.com/hkohler](twitter.com/hkohler)
-- **Matt Harley** - [mattharley.com](mattharley.com)
+- **Heather Kohler** - [http://twitter.com/hkohler](twitter.com/hkohler)
+- **Matt Harley** - [http://mattharley.com](mattharley.com)
 
 for biggest pledges and an ideas for project!
 
