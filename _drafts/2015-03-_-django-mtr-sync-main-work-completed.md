@@ -12,34 +12,47 @@ After mouthes of continuous work, testing and improving package we make a new co
 
 Docs, docs, docs! The main problem of project for now is lack of quality docs. To solve this problem we will do an `docs weeks` when commits will be only docs, no additional functionality (bug fixes only).
 
-## Features implemented
+## Work progress, new features implemented
 
 ### Inline integration
 This is one of the coolest and new features in *market*, and flexibility of settings let you do what-ever you want, without writing bunch of repetitive code.
 
-### Before, after, error handlers
+inline pic
 
+### Action context, before, after, error handlers
+Another cool feature is context of action and handlers, for example you need to save data from previous row, or save data from all rows to variable and then do what you want, may be download or sql update for better perfomance. Also if you want to send email notification if error happened you just add error handler or subscribe to standard django signal.
 
-### Action context
+handlers code example
 
 ### Transaction management on demand
+If don't need transactions - just don't enable it. The best example of action without transaction is to send object it to async worker, for example celery, or rq.
 
-###
+example of transaction management
 
-##Where is my dashboard app?
-As you can see
+### Settings sequences for hiding configuration from manager
+For real data sync you will need about 3 or 4 action to run, for example create data, download images and recalculate field in some model. To do this you just create settings sequences, to hide settings and simplify data synchronization, also for your managers.
+
+
+### Custom datasets from different sources
+
+
+### Simple admin import, export with ordering included
+
+
+## Where is my dashboard app?
+As you can see there are a lot of work around core functionality, after API stabilization we will implement nice dashboard with Bootstrap for easy customization. Of course this app will be nice to use in user cabinet or else where where you need to handle data from user.
 
 ## Utilization of functionality
 In `mtr.sync` project structure you can find `helpers.py` files, they will be moved to separate package called `mtr.utils`. We think this package will include all annoying django shortcuts, mixins, helpers. There are a lot of similar packages but they don't have flexibility that we want, for example, auto construction of model fields fabric, so simple *write less do more*.
 
 ## New architecture
 
-The biggest mistake was a prioritizing of table processing, the idea is not bad at all, but when you need to import or export xml, json data API will have a huge differences of base `Processor` class. We decided to move from raw `list` values to `dicts` with nested structures. It's a more flexible way to manipulate data and process it with action handlers. Also there are many different data sources not only files, so we must unlink file manipulation from processing.
+The first step in synchronization was table processing, but when you need to import or export xml, json data API will have a huge differences of base `Processor` class so for now you just register cutsom dataset. We decided to move from raw `list` values to `dicts` with nested structures. It's a more flexible way to manipulate data and process it with action handlers. Also there are many different data sources not only files, so we must unlink file manipulation from processing.
 
 For better understanding you can see diagram below
 
 ## Work progress
-Also nice feature is to include progress status when you dealing with long running action
+Realy nice feature is to include progress status when you dealing with long running action
 
 ## Roadmap
 
