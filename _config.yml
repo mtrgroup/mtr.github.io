@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Our approach to the operation allows us to mimimize risks while allowing us to complete any the project as described.
   We minimize extraneous factors and maximize our focus on the task.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mtr.website" # the base hostname & protocol for your site
+url: "http://mtrgroup.github.io" # the base hostname & protocol for your site
 twitter_username: mtrgroup
 github_username:  mtrgroup
 timezone: America/New_York
